@@ -1,0 +1,11 @@
+{
+    "paths": {
+        ".":  "./supermodel"
+    },
+    "shim": {
+        ".": {
+            "exports": "Supermodel",
+            "deps": ["backbone"]
+        }
+    }
+}
